@@ -12,7 +12,7 @@ public class LoginTest {
 
     @Test
     public void loginTests(){
-        System.setProperty("phantomjs.binary.path","phantomjs.exe");
+        
         DesiredCapabilities capabilities = DesiredCapabilities.phantomjs();
         PhantomJSDriver driver = new PhantomJSDriver(capabilities);
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
