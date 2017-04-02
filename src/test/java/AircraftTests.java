@@ -3,6 +3,7 @@ import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriverService;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -27,9 +28,9 @@ public class AircraftTests {
 
         System.setProperty("phantomjs.binary.path",phantomjs.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        //WebDriver driver = new PhantomJSDriver();
+        //WebDriver driver = new HtmlUnitDriver();
         ChromeDriver driver = new ChromeDriver();
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
 
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -58,7 +59,6 @@ public class AircraftTests {
         driver.findElement(By.name("name"+aircraftname)).sendKeys("ABC123");
         driver.findElement(By.name(aircraftname)).click();
         Assert.assertEquals("Aircraft name change",0,driver.findElements(By.name("name"+aircraftname)).size());
-
         driver.close();
     }
 
