@@ -26,9 +26,9 @@
 [INFO  - 2017-04-02T02:29:50.981Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:34:50.982Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:39:50.982Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:44:50.982Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:49:50.983Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:00:44.361Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:05:44.360Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:10:44.362Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:15:44.362Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:20:44.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
@@ -36,9 +36,9 @@ and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting
 [INFO  - 2017-04-02T02:30:44.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:35:44.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:40:44.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:45:44.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:50:44.363Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:01:02.265Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:06:02.264Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:11:02.265Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:16:02.265Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:21:02.264Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
@@ -46,9 +46,9 @@ and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting
 [INFO  - 2017-04-02T02:31:02.265Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:36:02.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:41:02.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:46:02.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:51:02.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:01:45.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:06:45.267Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:11:45.266Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:16:45.267Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:21:45.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
@@ -56,16 +56,18 @@ and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting
 [INFO  - 2017-04-02T02:31:45.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:36:45.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:41:45.267Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:46:45.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:51:45.268Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 and - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:06:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-[INFO  - 2017-04-02T02:11:11.313Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:16:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:21:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:26:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:31:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:36:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:41:11.314Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
-rm":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-02T02:46:11.313Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:51:11.315Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+:false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
 [INFO  - 2017-04-02T02:12:44.731Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: dbe37d60-1749-11e7-a11f-31394d7a2dc4
 [ERROR - 2017-04-02T02:12:49.837Z] Session [dbe37d60-1749-11e7-a11f-31394d7a2dc4] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'document.getElementById("defaultOpen").click()')
 [ERROR - 2017-04-02T02:12:49.838Z] Session [dbe37d60-1749-11e7-a11f-31394d7a2dc4] - page.onError - stack:
@@ -76,3 +78,29 @@ rm":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAl
 [INFO  - 2017-04-02T02:32:44.214Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:37:44.215Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
 [INFO  - 2017-04-02T02:42:44.215Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:47:44.214Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:52:44.214Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+scriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2017-04-02T02:43:26.188Z] Session [257b6060-174e-11e7-af47-f93b53ee84aa] - page.customHeaders:  - {}
+[INFO  - 2017-04-02T02:43:26.188Z] Session [257b6060-174e-11e7-af47-f93b53ee84aa] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-02T02:43:26.188Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 257b6060-174e-11e7-af47-f93b53ee84aa
+[ERROR - 2017-04-02T02:43:29.064Z] Session [257b6060-174e-11e7-af47-f93b53ee84aa] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'document.getElementById("defaultOpen").click()')
+[ERROR - 2017-04-02T02:43:29.064Z] Session [257b6060-174e-11e7-af47-f93b53ee84aa] - page.onError - stack:
+  doload (http://iowaair.us-east-1.elasticbeanstalk.com/:237)
+[INFO  - 2017-04-02T02:48:25.805Z] SessionManagerReqHand - _cleanupWindowlessSessions - Asynchronous Sessions clean-up phase starting NOW
+[INFO  - 2017-04-02T02:51:24.312Z] GhostDriver - Main - running on port 63266
+[INFO  - 2017-04-02T02:51:24.708Z] Session [42b394d0-174f-11e7-bfb8-13a2de007c16] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2017-04-02T02:51:24.708Z] Session [42b394d0-174f-11e7-bfb8-13a2de007c16] - page.customHeaders:  - {}
+[INFO  - 2017-04-02T02:51:24.709Z] Session [42b394d0-174f-11e7-bfb8-13a2de007c16] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-02T02:51:24.709Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 42b394d0-174f-11e7-bfb8-13a2de007c16
+[ERROR - 2017-04-02T02:51:26.973Z] Session [42b394d0-174f-11e7-bfb8-13a2de007c16] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'document.getElementById("defaultOpen").click()')
+[ERROR - 2017-04-02T02:51:26.974Z] Session [42b394d0-174f-11e7-bfb8-13a2de007c16] - page.onError - stack:
+  doload (http://iowaair.us-east-1.elasticbeanstalk.com/:237)
+[INFO  - 2017-04-02T02:52:16.960Z] GhostDriver - Main - running on port 17817
+[INFO  - 2017-04-02T02:52:17.234Z] Session [6202b7d0-174f-11e7-9d67-bd9823d51e34] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2017-04-02T02:52:17.234Z] Session [6202b7d0-174f-11e7-9d67-bd9823d51e34] - page.customHeaders:  - {}
+[INFO  - 2017-04-02T02:52:17.234Z] Session [6202b7d0-174f-11e7-9d67-bd9823d51e34] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"windows-8-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2017-04-02T02:52:17.234Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 6202b7d0-174f-11e7-9d67-bd9823d51e34
+[ERROR - 2017-04-02T02:52:19.091Z] Session [6202b7d0-174f-11e7-9d67-bd9823d51e34] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'document.getElementById("defaultOpen").click()')
+[ERROR - 2017-04-02T02:52:19.091Z] Session [6202b7d0-174f-11e7-9d67-bd9823d51e34] - page.onError - stack:
+  doload (http://iowaair.us-east-1.elasticbeanstalk.com/:237)

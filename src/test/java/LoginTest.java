@@ -23,8 +23,8 @@ public class LoginTest {
         PhantomJSDriver driver = new PhantomJSDriver(capabilities);
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
         driver.manage().window().setSize( new Dimension( 1124, 850 ) );
-        Assert.assertEquals(driver.getCurrentUrl(),"http://iowaair.us-east-1.elasticbeanstalk.com/");
+        Assert.assertEquals("http://iowaair.us-east-1.elasticbeanstalk.com/",driver.getCurrentUrl());
         System.out.println(driver.getCurrentUrl());
-        Assert.assertEquals(driver.getTitle(),"Iowa Air");
+        Assert.assertEquals("Iowa Airs",driver.getTitle());
     }
 }
