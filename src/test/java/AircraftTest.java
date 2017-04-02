@@ -1,12 +1,11 @@
 import net.anthavio.phanbedder.Phanbedder;
 import org.junit.Assert;
 import org.junit.Test;
-import org.openqa.selenium.*;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.htmlunit.HtmlUnitDriver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
-import org.openqa.selenium.phantomjs.PhantomJSDriverService;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -17,7 +16,7 @@ import java.util.concurrent.TimeUnit;
 /**
  * Created by Rachel on 4/1/2017.
  */
-public class AircraftTests {
+public class AircraftTest {
     @Test
     public void AddAircraft(){
         File phantomjs = Phanbedder.unpack();
@@ -45,7 +44,7 @@ public class AircraftTests {
         for(WebElement i : inputs){
             if(i.getAttribute("name").indexOf("name")==0){
                 if(!found && i.getAttribute("value").indexOf("Aircraft")==0&&!i.getAttribute("name").equals("namefield")){
-                aircraftname=i.getAttribute("value");
+                    aircraftname=i.getAttribute("value");
                     found=true;
                     i.clear();
                     i.sendKeys("ABC123");

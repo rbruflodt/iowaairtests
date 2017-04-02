@@ -17,7 +17,7 @@ import java.util.List;
 /**
  * Created by Rachel on 4/1/2017.
  */
-public class LoginTests {
+public class LoginTest {
 
     @Test
     public void UserLogin(){
