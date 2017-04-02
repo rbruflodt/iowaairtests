@@ -63,5 +63,6 @@
     <orderEntry type="library" scope="TEST" name="Maven: org.apache.commons:commons-exec:1.1" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:jna:3.4.0" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: net.java.dev.jna:platform:3.4.0" level="project" />
+    <orderEntry type="library" name="Maven: net.anthavio:phanbedder-1.9.8:1.0.0" level="project" />
   </component>
 </module>
