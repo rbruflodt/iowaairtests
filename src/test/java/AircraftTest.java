@@ -24,8 +24,8 @@ public class AircraftTest {
 
         System.setProperty("phantomjs.binary.path",phantomjs.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        //WebDriver driver = new PhantomJSDriver();
-        ChromeDriver driver = new ChromeDriver();
+        WebDriver driver = new PhantomJSDriver();
+        //ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);

@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54dd45bf-ae6e-4bc0-b5ed-93e2e6cb929b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/AircraftTests.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/LoginTests.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/AircraftTest.class" afterPath="$PROJECT_DIR$/target/test-classes/AircraftTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/LoginTest.class" afterPath="$PROJECT_DIR$/target/test-classes/LoginTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/phantomjsdriver.log" afterPath="$PROJECT_DIR$/phantomjsdriver.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/AircraftTest.java" afterPath="$PROJECT_DIR$/src/test/java/AircraftTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/FlightTest.java" afterPath="$PROJECT_DIR$/src/test/java/FlightTest.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" />
     </list>
     <ignored path="iowaairtests.iws" />
@@ -43,11 +37,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="LoginTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="32" selection-end-column="72" />
+            <state relative-caret-position="126">
+              <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -55,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FlightTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FlightTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="109">
-              <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+            <state relative-caret-position="58">
+              <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -70,8 +64,8 @@
       <file leaf-file-name="AircraftTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/AircraftTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            <state relative-caret-position="93">
+              <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +96,8 @@
         <option value="$PROJECT_DIR$/src/test/java/AircraftTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/LoginTests.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/FlightTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/LoginTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/AircraftTest.java" />
       </list>
     </option>
@@ -787,7 +781,7 @@
       <updated>1491091921758</updated>
       <workItem from="1491091924542" duration="22012000" />
       <workItem from="1491145049374" duration="17585000" />
-      <workItem from="1491259014649" duration="2282000" />
+      <workItem from="1491259014649" duration="2526000" />
     </task>
     <servers />
   </component>
@@ -824,7 +818,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41879000" />
+    <option name="totallyTimeSpent" value="42123000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-8" width="1378" height="744" extended-state="0" />
@@ -935,10 +929,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTests.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/AircraftTests.java" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/AircraftTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        <state relative-caret-position="93">
+          <caret line="27" column="10" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -947,18 +951,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/LoginTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="32" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FlightTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="109">
-          <caret line="29" column="51" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+        <state relative-caret-position="126">
+          <caret line="28" column="10" selection-start-line="28" selection-start-column="10" selection-end-line="28" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
