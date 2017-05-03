@@ -1,12 +1,17 @@
 import net.anthavio.phanbedder.Phanbedder;
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
+import java.io.IOException;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
@@ -21,10 +26,14 @@ public class FlightTest {
 
         System.setProperty("phantomjs.binary.path",phantomjs.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        //WebDriver driver = new PhantomJSDriver();
-        ChromeDriver driver = new ChromeDriver();
+        String [] phantomJsArgs = {"--ignore-ssl-errors=true"};
+        DesiredCapabilities dcaps = new DesiredCapabilities();
+        dcaps.setCapability(PhantomJSDriverService.PHANTOMJS_GHOSTDRIVER_CLI_ARGS,phantomJsArgs);
+        WebDriver driver = new PhantomJSDriver(dcaps);
+        //ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
+        //driver.get("http://127.0.0.1:8080/index.jsp");
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
         WebDriverWait wait = new WebDriverWait(driver, 10);
         Assert.assertEquals("URL match","http://iowaair.us-east-1.elasticbeanstalk.com/",driver.getCurrentUrl());
@@ -74,10 +83,9 @@ public class FlightTest {
                 r.click();
             }
         }
-        LocalDate date = LocalDate.now().plusDays(1);
+        LocalDate date = LocalDate.now().plusDays(2);
 
-        //String tomorrow = String.format("%02d",date.getMonthValue())+"/"+String.format("%02d",date.getDayOfMonth())+"/"+date.getYear();
-        //((JavascriptExecutor) driver).executeScript("document.getElementById('once').value="+tomorrow);
+
         List<WebElement> flightinputs = driver.findElements(By.tagName("input"));
         for(int i = 0; i < flightinputs.size(); i++){
             if(flightinputs.get(i).isDisplayed()&&flightinputs.get(i).getAttribute("type").equals("number")){
@@ -85,22 +93,30 @@ public class FlightTest {
                 flightinputs.get(i).sendKeys(""+200*(i+1));
             }
         }
-        driver.findElement(By.id("once")).sendKeys(String.format("%02d",date.getMonthValue())+String.format("%02d",date.getDayOfMonth())+date.getYear());
+        //driver.findElement(By.id("once")).sendKeys(String.format("%02d",date.getMonthValue())+String.format("%02d",date.getDayOfMonth())+date.getYear());
+        driver.findElement(By.id("once")).sendKeys(date.getYear()+"-"+String.format("%02d",date.getMonthValue())+"-"+String.format("%02d",date.getDayOfMonth()));
         driver.findElement(By.name("editflight")).click();
+
         driver.findElement(By.name("signout")).click();
-        driver.findElement(By.name("flighttofield")).sendKeys(Keys.DOWN,Keys.ENTER);
-        driver.findElement(By.name("departfield")).sendKeys(String.format("%02d",date.getMonthValue())+String.format("%02d",date.getDayOfMonth())+date.getYear());
-        driver.findElement(By.name("searchflights")).click();
-       email = driver.findElement(By.name("email"));
+        email = driver.findElement(By.name("email"));
         email.sendKeys("rachel-bruflodt@uiowa.edu");
         password = driver.findElement(By.name("password"));
         password.sendKeys("Password");
         driver.findElement(By.name("signin")).click();
+        driver.findElement(By.name("flighttofield")).sendKeys(Keys.DOWN,Keys.ENTER);
+        //driver.findElement(By.name("departfield")).sendKeys(String.format("%02d",date.getMonthValue())+String.format("%02d",date.getDayOfMonth())+date.getYear());
+        driver.findElement(By.name("departfield")).sendKeys(date.getYear()+"-"+String.format("%02d",date.getMonthValue())+"-"+String.format("%02d",date.getDayOfMonth()));
+
+
+        driver.findElement(By.name("searchflights")).click();
+
+
         driver.findElement(By.name("bookABC123")).click();
         driver.findElement(By.id("firstname0")).sendKeys("Bruce");
         driver.findElement(By.id("lastname0")).sendKeys("Dickinson");
         driver.findElement(By.id("gender0")).sendKeys("M");
-        driver.findElement(By.id("dob0")).sendKeys("12251983");
+        //driver.findElement(By.id("dob0")).sendKeys("12251983");
+        driver.findElement(By.id("dob0")).sendKeys("1983-12-25");
         driver.findElement(By.id("id0")).sendKeys("A123B");
         driver.findElement(By.id("creditcardtype")).sendKeys("Visa");
         driver.findElement(By.id("creditcardnumber")).sendKeys("A123456789");
@@ -112,8 +128,13 @@ public class FlightTest {
                 driver.findElement(By.id("priceconfirmation")).sendKeys(e.getText().substring(15));
             }
         }
+
         driver.findElement(By.name("bookflights")).click();
+
         driver.findElement(By.name("Reservations")).click();
+
+
+
         List<WebElement> entries = driver.findElements(By.tagName("td"));
         int ticketnum = 0;
         for(WebElement e : entries){
@@ -137,11 +158,24 @@ public class FlightTest {
         driver.findElement(By.id("firstname")).sendKeys("Bruce");
         driver.findElement(By.id("lastname")).sendKeys("Dickinson");
         driver.findElement(By.name("searchtickets")).click();
+
         driver.findElement(By.name("checkinticket")).click();
         driver.findElement(By.name("numbags")).sendKeys("1");
         driver.findElement(By.name("seatnumber")).sendKeys("13A");
-        driver.findElement(By.name("boardingpass")).click();
+        //File src= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        try {
+//            FileUtils.copyFile(src, new File("C:/selenium/error.png"));
+//        }catch(IOException e){
+//            e.printStackTrace();
+//        }
+
         driver.findElement(By.name("finishcheckin")).click();
+//        File src2= ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+//        try {
+//            FileUtils.copyFile(src2, new File("C:/selenium/error2.png"));
+//        }catch(IOException e){
+//            e.printStackTrace();
+//        }
         driver.findElement(By.name("signout")).click();
         email = driver.findElement(By.name("email"));
         email.sendKeys("iowaairteam10@gmail.com");
