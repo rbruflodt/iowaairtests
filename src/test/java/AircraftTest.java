@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.phantomjs.PhantomJSDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -24,8 +25,9 @@ public class AircraftTest {
 
         System.setProperty("phantomjs.binary.path",phantomjs.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        WebDriver driver = new PhantomJSDriver();
-        //ChromeDriver driver = new ChromeDriver();
+        System.setProperty("webdriver.gecko.driver","geckodriver_1.exe");
+        //WebDriver driver = new PhantomJSDriver();
+        ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);

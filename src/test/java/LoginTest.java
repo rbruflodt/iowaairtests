@@ -25,8 +25,8 @@ public class LoginTest {
 
         System.setProperty("phantomjs.binary.path",phantomjs.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        WebDriver driver = new PhantomJSDriver();
-        //ChromeDriver driver = new ChromeDriver();
+        //WebDriver driver = new PhantomJSDriver();
+        ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");;
         Assert.assertEquals("URL match","http://iowaair.us-east-1.elasticbeanstalk.com/",driver.getCurrentUrl());
@@ -57,8 +57,8 @@ public class LoginTest {
 
         System.setProperty("phantomjs.binary.path",phantomjs.getAbsolutePath());
         System.setProperty("webdriver.chrome.driver","chromedriver.exe");
-        WebDriver driver = new PhantomJSDriver();
-        //ChromeDriver driver = new ChromeDriver();
+        //WebDriver driver = new PhantomJSDriver();
+        ChromeDriver driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://iowaair.us-east-1.elasticbeanstalk.com/");
 
